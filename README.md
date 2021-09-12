@@ -10,7 +10,8 @@ I’ve been playing around with streamlit and I am extremely impressed by it.
 
 It’s fast, responsive, and is very easy to get a grip on.In my opinion, working with streamlit is quite enjoyable. We can deploy our streamlit application on Heroku as well to show it to the world.
 
-What files you need for deployment on heroku of a streamlit application?
+**What files you need** for deployment on heroku of a streamlit application?
+
 There are four essential components required to launch your streamlit application on Heroku.
 
 setup.sh, requirements.txt, Procfile, your_application.py
