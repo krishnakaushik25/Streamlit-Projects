@@ -21,16 +21,22 @@ your_application.py
 setup.sh — no credentials needed
 Note: You do not need to name this file exactly setup.sh, it can be anything however it needs to end with an .sh file extension. However, naming it setup.sh seems to be the norm.
 
-'''
+```
 mkdir -p ~/.streamlit/
+
+echo "\
+[general]\n\
+email = \"your-email@domain.com\"\n\
+" > ~/.streamlit/credentials.toml
+
 echo "\
 [server]\n\
 headless = true\n\
+enableCORS=false\n\
 port = $PORT\n\
-enableCORS = false\n\
-\n\
 " > ~/.streamlit/config.toml
-'''
+
+```
 
 requirements.txt - This file essentially lists all the specific python plugins we will use in our streamlit application.
 
