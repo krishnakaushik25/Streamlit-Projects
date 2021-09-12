@@ -42,9 +42,9 @@ requirements.txt - This file essentially lists all the specific python plugins w
 
 Procfile
 Note: Name this file as Procfile, do not put any extensions after it. It is a standard text file.
-
+```
 web: sh setup.sh && streamlit run your_application.py
-
+```
 And after this files, we can create a new heroku app by using Heroku CLI or pushing it to github and using it for share.streamlit.io.
 
 share.streamlit.io needs only requirements.txt file and your_application.py file.(Thats' it)
