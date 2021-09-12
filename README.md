@@ -53,6 +53,8 @@ share.streamlit.io needs only requirements.txt file and your_application.py file
 
 These are some of the applications i built using streamlit.
 
+
++ [Image detection with FastAPI using Amazon ec2](https://github.com/krishnakaushik25/fastapi-opencv)
 + [Wiki Text-to-Voice App](https://github.com/krishnakaushik25/WIKI-Text-Voice)
 + [Streamlit Style Transfer App](https://github.com/krishnakaushik25/streamlit-style-transfer)
 + [Streamlit dashboard contains Twitter cashtags and StockTwits](https://github.com/krishnakaushik25/streamlit-twitter-StockTwits)
