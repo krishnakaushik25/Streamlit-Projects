@@ -13,10 +13,7 @@ It’s fast, responsive, and is very easy to get a grip on.In my opinion, workin
 What files you need for deployment on heroku of a streamlit application?
 There are four essential components required to launch your streamlit application on Heroku.
 
-setup.sh
-requirements.txt
-Procfile
-your_application.py
+setup.sh, requirements.txt, Procfile, your_application.py
 
 setup.sh — no credentials needed
 Note: You do not need to name this file exactly setup.sh, it can be anything however it needs to end with an .sh file extension. However, naming it setup.sh seems to be the norm.
