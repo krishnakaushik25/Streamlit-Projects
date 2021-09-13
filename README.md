@@ -49,7 +49,7 @@ share.streamlit.io needs only requirements.txt file and your_application.py file
 
 ## Streamlit Apps:
 
-These are some of the applications I built using streamlit.
+These are some of the applications I built using streamlit with deployment links in the respective repos.
 
 
 + [Image detection with FastAPI using Amazon ec2](https://github.com/krishnakaushik25/fastapi-opencv)
